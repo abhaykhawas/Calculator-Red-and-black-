@@ -1,0 +1,150 @@
+.container{
+    height: 735px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.try{
+    border: 1px solid;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    border-radius: 8px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.display{
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.buttons{
+    border: 1px solid;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 8px;
+}
+
+.numbers{
+    border: 1px solid;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.operators{
+    border: 1px solid;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.num{
+    width: 30.5%;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black,red);
+    color: white;
+    border-radius: 8px;
+}
+
+.num1{
+    width: 40%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black,red);
+    color: white;
+    border-radius: 8px;
+}
+
+.opr{
+    width: 40%;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black,red);
+    color: white;
+    border-radius: 8px;
+}
+
+.opr1{
+    width: 90%;
+    margin-top: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black,red);
+    color: white;
+    border-radius: 8px;
+}
+
+.num:hover{
+    background: linear-gradient(red,black)
+}
+
+.num1:hover{
+    background: linear-gradient(red,black)
+}
+
+.opr:hover{
+    background: linear-gradient(red,black)
+}
+
+.opr1:hover{
+    background: linear-gradient(red,black)
+}
+
+.display{
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    margin-right: 20px;
+}
