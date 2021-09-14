@@ -4,17 +4,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
     width: 100%;
     overflow: hidden;
 
 }
 
+
 .try{
-    border: 1px solid;
     width: 30%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-end;
     background: black;
     border-radius: 8px;
 }
@@ -25,25 +26,24 @@
 }
 
 .display{
-    border: 1px solid;
     width: 100%;
     height: 50px;
     border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .buttons{
-    border: 1px solid;
     width: 100%;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     display: flex;
     border-radius: 8px;
 }
 
 .numbers{
-    border: 1px solid;
     width: 60%;
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -53,9 +53,8 @@
 }
 
 .operators{
-    border: 1px solid;
     width: 40%;
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -141,10 +140,16 @@
 
 .display{
     color: white;
-    border: 1px solid black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin: 10px;
     margin-right: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .try {
+        width: 80%;
+        height: 80%;
+    }
+  }
